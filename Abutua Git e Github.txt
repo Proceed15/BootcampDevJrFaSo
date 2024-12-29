@@ -1,0 +1,156 @@
+Aulas:
+
+1 Git e GitHub Essencial:
+
+Links e Explicações:
+1:
+https://www.redhat.com/pt-br/topics/middleware/what-is-ide
+
+2:
+https://coodesh.com/blog/candidates/dicas/os-melhores-editores-de-codigo-fonte-e-ide-para-programar
+
+3:
+Link 1: https://www.eclipse.org/downloads
+Link 2: https://www.educative.io/blog/best-java-ides-2021
+Link 3: https://www.jetbrains.com/pt-br/idea
+Link 4: https://spring.io/tools
+
+4:
+https://code.visualstudio.com/download
+
+5:
+Sem links nesse capítulo, foi só uma demonstração de como desativar o recurso de tradução automática apertando o ícone de configurações e em "Dont't show again" no VS Code
+
+6:
+https://git-scm.com/downloads
+
+7:
+Comandos Linux:
+ ls - Permite listar os arquivos e diretórios, dentro do diretório corrente.
+ pwd - Lista o diretório corrente.
+ clear - Limpa os dados do terminal.
+
+Comandos Git:
+ git - Lista todas as opções do git.
+
+8:
+https://github.com/
+
+9:
+https://github.com/resources/articles/software-development/what-are-code-repositories
+
+10:
+https://developer.mozilla.org/pt-BR/docs/Web/HTML
+https://elementor.com/blog/pt-br/tutorial-de-html/
+https://www.w3schools.com/html/
+
+11:
+https://code.visualstudio.com/docs/editor/emmet
+
+12:
+https://www.geeksforgeeks.org/how-to-access-an-html-document-in-a-browser/
+
+13:
+https://blog.marcusoliveiradev.com.br/diferencas-entre-a-web-e-a-internet/
+
+14:
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+15:
+https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+16:
+Diretório oculto: .git.
+
+Comando:
+ git init - Inicia do repositório local, geralmente esse comando é executado somente uma vez dentro de um projeto.
+
+17:
+Comandos:
+ git add . - Adiciona todos os arquivos pendentes para a área de stage.
+ git add NomeDoArquivo.ExtensãoArquivo - Adiciona o Arquivo com o nome a extensão indicada
+
+18:
+Comandos:
+ git config --global user.name "seu_user_name" - Configura o user.name do git (Executado somente para configurar ou mudar o user.name).
+ git config --global user.email "seu_email" - Configura o user.email do git (Executado somente para configurar ou mudar o user.email).
+ git commit -m "mensagem" - Cria uma nova versão do projeto e envia todos os arquivos do stage para o repositório local.
+
+19:
+Comando:
+ git branch -M main" - Move do branch atual para o branch main.
+
+20:
+Comando:
+ git remote add apelido endereço - Define o endereço do repositório remoto (GitHub).
+
+Observação: Escolher entre esse e Git Clone, o qual geralmente já deixa define a origem para o repositório remoto...
+git clone "LinkDoSeuRepositório.git"
+
+21:
+Comando:
+ git push -u apelido_do_remote nome_do_branch - Envia para o endereço remoto (GitHub) uma nova versão do projeto, ao final, tanto o repositório local como remoto terão a mesma versão.
+Lembrar de caso precisar: allow-unrelated-stories
+
+22:
+Comando git:
+ git clone endereço_do_repositório - Cria um repositório local a partir de um repositório remoto (clone).
+ ls - Lista todas as pastas do diretório atual
+ cd nomeDaPasta - Entra na Pasta
+
+Comando VSCode:
+ code . - Abre a pasta corrente como projeto dentro do VSCode.
+
+23:
+ Comandos git:
+	git add . + Adiciona todos os Arquivos
+     	git commit -m "SuaMensagemDeCommitAqui" + Adiciona um Commit
+	git push + Envia os Arquivos para o Repositório Designado
+
+Verificar o Repositório Remoto para ver se está Sincronizado com o seu Repositório Local, pode ser pelo histórico de Commits e Branchs
+
+24:
+ Comando git:
+	git log + Mostra o registro de alterações no Repositório
+Verificar o Número do Commit (Identificador) para se retornar a uma versão anterior ou avançar a uma versão futura no repositório local
+Código Hash é o número do Commit mostrado no Git Log
+
+25:
+ Projeto 01 - Conceitos básicos VSCode, HTML, Git e GitHub: Frases Motivacionais.
+Abra o link abaixo para todas as informações.
+https://docs.google.com/document/d/156-9sVAn0Nan8GCq9pC_6nFFHBowbXJ03Ci3htbdZKw/edit?tab=t.0
+
+Atividade:
+
+Projeto 01 - Módulo 01
+
+Objetivos:
+
+Aplicar os conceitos básicos de VSCode, html, git e github.
+
+Passos:
+
+Criar um repositório no GitHub exclusivo para o projeto.
+Criar um projeto no VSCode (pasta). 
+Criar um arquivo chamado index.html.
+Criar ou escolher uma frase motivacional dentro do index.html.
+Fazer um commit com a mensagem: “frase motivacional 1”.
+Fazer um push.
+Criar ou escolher  uma segunda frase  motivacional dentro do index.html.
+Fazer um commit com a mensagem: “frase motivacional 2”.
+Fazer um push.
+Criar ou escolher uma terceira frase  motivacional dentro do index.html.
+Fazer um commit com a mensagem: “frase motivacional 3”.
+Fazer um push.
+
+Requisitos de Aprovação do Projeto:
+
+Enviar o link do repositório público do projeto no GitHub.
+Repositório exclusivo para o projeto
+Arquivo index.html salvo no branch main.
+No mínimo três commits com as mensagens e conteúdos esperados.
+
+Link contendo Frases:
+https://inspiracaopositiva.com.br/frases-de-filmes-inspiradoras/
+
+Status: Concluída com Sucesso!
